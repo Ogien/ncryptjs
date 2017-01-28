@@ -21,5 +21,5 @@ $(target).click( function (event) {
 - Any Version of jQuery
  - Working on removing the jQuery dependency as it's a big library
 
-# Goals
+## Goals
 - To have a dynamic way of encrypting all links from bots, to give users to the ability to protect their links.
