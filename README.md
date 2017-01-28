@@ -9,10 +9,14 @@ to hidden to protect the raw connect from the bots.
 ## Getting Started
 ```
 // To Encrpt
-obfs_encode( $(target) );
+obfs_encode( target );
 
 // To Decrypt
 $(target).click( function (event) {
-    obfs_decode(event, $(target));
+    obfs_decode(event, target);
 });
 ```
+
+## Requirements
+- Any Version of jQuery
+ - Working on removing the jQuery dependency as it's a big library
